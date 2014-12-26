@@ -9,7 +9,7 @@ and result is like this
 
 ![](trigrid.png)
 
-Use 
+
 -- créer une table tirgrid level 1
 drop table trigrid_l1;
 create table trigrid_l1(gid integer,tx integer, ty integer);
