@@ -7,7 +7,7 @@ $BODY$
 --               produire le grid en degrés.
 --A Argus     : pt_x, pty = coord start grid
 --              gx = largeur grid
---              gy = heuteur grid
+--              gy = hauteur grid
 --              c = longueur des côtés
 --              epsg = code epsg des unités de mesures
 --              tbl = nom de table de sortie
