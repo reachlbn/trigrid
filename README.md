@@ -11,7 +11,7 @@ and result is like this
 
 
 -- créer une table tirgrid level 1
-![]
+<br>
 drop table trigrid_l1;
 create table trigrid_l1(gid integer,tx integer, ty integer);
 SELECT AddGeometryColumn ('','trigrid_l1','the_geom',4326,'POLYGON',2);
