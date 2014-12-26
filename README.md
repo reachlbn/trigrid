@@ -19,6 +19,5 @@ select trigrid (-150,36,100,44,0.13,4326,'iraq_trigrid');
 CREATE INDEX sidx_trigrid ON iraq_trigrid USING GIST ( the_geom );
 CREATE UNIQUE INDEX idx_trigrid_l1 ON iraq_trigrid (gid);
 select count(*) from iraq_trigrid;
--- 605200
  
 
