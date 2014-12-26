@@ -22,6 +22,7 @@ select count(*) from trigrid_l1;
 -- 605200
  
 -- créer une table tirgrid level 2
+<br>
 drop table trigrid_l2;
 create table trigrid_l2(gid integer,tx integer, ty integer);
 SELECT AddGeometryColumn ('','trigrid_l2','the_geom',4326,'POLYGON',2);
